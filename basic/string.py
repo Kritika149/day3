@@ -1,0 +1,17 @@
+print(r"This is \\ double backslash")
+print("This is \\\\double backslash")
+print(2+3)
+print(9-3)
+print(9/3)
+print(9//3)
+print(9*3)
+print(9**3)
+print(9%2)
+print("\U0001F602")
+print(3*3.12546)
+print(round(3*3.12546,3))
+#string concatenation
+print("Aryama"+"Rushav")
+print("Aryama"+" "+"Rushav") #to give space using +
+print("Aryama"+str(10))
+print(10+int("10"))
