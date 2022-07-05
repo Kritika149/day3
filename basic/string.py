@@ -39,3 +39,7 @@ print (fruit_name)
 #user input
 user_provided_fruit =input("please give your provide food")
 print("the first value of a is ==> ",user_provided_fruit)
+
+user_provided_firstname=input("first name")
+user_provided_second_name=input("second name")
+print("your full name is " ,user_provided_firstname + " "+ user_provided_second_name)
