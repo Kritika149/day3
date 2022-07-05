@@ -35,3 +35,7 @@ numeric_value=10
 fruit_name="apple"
 print (numeric_value)
 print (fruit_name)
+
+#user input
+user_provided_fruit =input("please give your provide food")
+print("the first value of a is ==> ",user_provided_fruit)
