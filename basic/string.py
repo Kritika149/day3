@@ -1,4 +1,4 @@
-from re import A
+''''
 
 
 print(r"This is \\ double backslash")
@@ -25,15 +25,16 @@ print("the first value of a is: -->" , a)
 a= "apple"  #a is dynamic
 print("the first value of a is: -->" , a)
 #Variable in python
-'''
+
+
 numeric_value ==> snake_case_writing (reccommended for python)
 numericvalue ==> cameCasewriting
 
-'''
 
 
 
-''''
+
+
 numeric_value=10
 fruit_name="apple"
 print (numeric_value)
@@ -46,7 +47,7 @@ print("the first value of a is ==> ",user_provided_fruit)
 user_provided_firstname=input("first name")
 user_provided_second_name=input("second name")
 print("your full name is " ,user_provided_firstname + " "+ user_provided_second_name)
-'''
+
 #numeric calculations
 print(18+12)  #addition
 print(18-12)  #substraction 
@@ -87,4 +88,60 @@ print("today is ==> ", date_today)
 
 
 
+'''
+
+
+
+
+#Day4
+'''
+#type function (to find the type of a variable)
+name=input("whats your name")
+print("Myname is ==>"+name)
+type_name=type(name)
+print (type_name)
+
+#to print average of 3 numbers
+a,b,c=input("enter 3 numbers separated by comma:").split(",")
+sum=int(a)+int(b)+int(c)
+average=sum/3
+print("the average is ",average)
+print(type(sum))
+print(type(average))
+'''
+#string indexing
+
+'''
+
+
+word='What is your name?'
+print(word[0])
+print(word[1])
+print(word[2])
+print(word[3])
+print(word[4])
+print(word[5])
+print(word[6])
+print(word[7])
+print(word[-1])
+print(word[8:12])
+print(word[-1::-1])
+print(word[3:16:2]) #to print from 4th to 15th at steps of 2
+print(len(word))   #to print no. of characters
+
+'''
+'''
+#to lowercase and usppercase
+name1="HEHE"
+name2="whatt"
+print(name1.lower())
+print(name2.upper())
+
+#to capitalize only the first letters of every word
+sentence="today is thursday"
+print(sentence.title())
+'''
+#to count only a particular character
+a="kritika"
+print(a.count("i"))
 

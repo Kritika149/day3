@@ -29,7 +29,7 @@ print(name[::-1]) #to reverse
 print (name[-1::-1]) #to reverse
 print(name[-1::5])
 '''
-
+'''
 #string method
 example="kritika"
 print(example.lower())
@@ -52,6 +52,41 @@ fullname,char= input("please enter full name and character (comma separated):").
 space=fullname.strip()
 char_count=fullname.lower().count(char.strip())
 print("My name is"+ fullname + "and" , char_count)
+ '''
+space_problem="  aryama  "
+# full_name, character =input("enter your full name and character you want to count (comma separated)").split(",")
+# charcount= full_name.lower().count(character.strip())
+# print(f"your name is {full_name} the character to count is {character} the character name is {charcount}")
+
+
+# replace
+solved_problem = space_problem.replace(" ","")
+print(f"the solve of space problem is : {space_problem}")
+
+replace_example = "Kritika is a beautiful and she is out standing."
+print(replace_example.replace("is","was",1))
+is_position1 = replace_example.find("is")
+print(replace_example.find("is",is_position1+1))
+
+#center() method
+example2="python"
+print(example2.center(2+6+2,"*"))
+full_name=input("enter full name")
+a=len(full_name)
+print(full_name.center(5+a+5,"*"))
+
+#string are immutable and assignment operator
+example3="any"
+example3[1]="N"
+replaced_example= example3.replace("n","N")
+print(replaced_example)
+example3= example3+ "body"
+example3 += "body"
+print(example3)
+
+
+
+
 
 
 
